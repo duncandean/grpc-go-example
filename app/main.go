@@ -9,7 +9,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/duncandean/grpc-go-example/todo"
+	"github.com/duncandean/grpc-go-example/app/todo"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
