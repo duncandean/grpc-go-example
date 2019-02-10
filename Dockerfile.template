@@ -1,7 +1,5 @@
 FROM balenalib/raspberrypi3-alpine-golang:latest-latest-build AS build
 
-RUN apk add --no-cache ca-certificates git
-
 WORKDIR /src
 
 COPY /app ./
